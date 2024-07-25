@@ -12,11 +12,11 @@ class Person {
     this.eyeColor = eyeColor;
   }
 
-  getAge = () => {
+  get getAge() {
     return this.age;
   }
 
-  setAge = (age) => {
+  set setAge(age) {
     this.age = age;
   };
 }
